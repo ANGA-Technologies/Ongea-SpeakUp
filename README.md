@@ -1,10 +1,7 @@
-# ongea-leadership
+# Ongea-Speak Up
 
-This template should help get you started developing with Vue 3 in Vite.
+The Ongea-Speak Up WebApp being Built with Vue3 under. Powered by ANGA Technologies under the ANGA Hub Umbrella.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
 ## Type Support for `.vue` Imports in TS
 
