@@ -1,3 +1,4 @@
+<script lang="ts">
 import React from 'react';
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold text-gray-800 dark:text-white">About Us</h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 mt-4">
-            We are an assertive innovation to the world, a generous hub of excellence
+            We are an assertive innovation to the world, a generous hub of excellence.
           </p>
         </div>
 
@@ -41,8 +42,11 @@ const About = () => {
           <h3 className="text-2xl font-semibold text-gray-800 dark:text-white text-center mb-8">Our Core Values</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {values.map((value, index) => (
-              <div key={index} className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300">
-                <h4 className="text-xl font-semibold text-maroon-600 dark:text-maroon-400">{value.title}</h4>
+              <div
+                key={index}
+                className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-md hover:shadow-lg transition-all duration-300"
+              >
+                <h4 className="text-xl font-semibold text-red-600 dark:text-red-400">{value.title}</h4>
                 <p className="mt-2 text-gray-600 dark:text-gray-300">{value.description}</p>
               </div>
             ))}
@@ -54,3 +58,4 @@ const About = () => {
 };
 
 export default About;
+</script>
